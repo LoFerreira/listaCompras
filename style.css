@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #101011;
+    font-family: 'Raleway', sans-serif;
+}
+
+.app {
+    position: relative;
+}
+
+.container {
+    background-color: #a8bfb6;
+    position: absolute;
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50vh;
+    padding: 1em 2em;
+    transform: translateY(-50px);
+    border-radius: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2b2b2e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.remove {
+    border: none;
+    background-color: #f4d58d;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#item-button {
+    cursor: pointer;
+    background-color: #f4d58d;
+    border: none;
+    padding: 0.5em;
+}
+
+input {
+    border: none;
+    padding: 0.5em;
+}
